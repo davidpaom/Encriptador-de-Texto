@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador/Desencriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <style>
+    textarea {
+      resize: none;
+    }
+    </style>
+
+
+  <main class="encriptador">
+
+    <img class="encriptador" src="Images/background.png">
+
+      <main class="autoLayout1">
+          <label>Mensaje a encriptar o desencriptar </label>
+          <textarea class = "text-input"  type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí, solo letras minúsculas y sin acentos"></textarea>
+      </main>
+
+      <main class = "autoLayout2">
+        <button class = "button" id="buttonEnc">
+          <label class="textoButton">¡Encriptar!</label>
+        </button>
+      </main>
+
+      <main class = "autoLayout3">
+        <button class = "button" id="buttonDesc">
+          <label class="textoButton">¡Desencriptar!</label>
+        </button>
+      </main>
+
+      <main class = "autoLayout5">
+        <button class = "button" id="buttonCop">
+          <label class="textoButton">¡Copiar!</label>
+        </button>
+      </main>
+
+      <main class="autoLayout4">
+        <label>Mensaje encriptado/ desencriptado</label>
+        <textarea class = "text-input" type="text" id="msg"></textarea>
+      </main>
+
+      <main class="autoLayout6">
+          <p>Derechos Reservados © David Portugues</p>
+      </main>
+    </img> 
+
+    
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
